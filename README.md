@@ -1,5 +1,8 @@
 ## __Timing Vex Competition Switch__  
 This is a reposity for the information about how to build and use Timing Competition Switch  
+
+If you are interested in contacting me to buy one at vex Worlds, please use this (Whatsapp Link)[wa.me/16503987996]
+
 #### USE  
 The Slider has 3 positions, up, down or center. In each position, pressig the button does something different, as does holding it for half a second before releasing  
 - UP - DRIVER Position, the robot is disabled
