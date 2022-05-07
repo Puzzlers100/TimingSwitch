@@ -2,7 +2,7 @@
 This is a reposity for the information about how to build and use Timing Competition Switch  
 
 If you are interested in contacting me to buy one at vex Worlds, please use this [Whatsapp Link](https://wa.me/16503987996)
-
+![Map for Competition Switch Usage](.map.png)
 #### USE  
 The Slider has 3 positions, up, down or center. In each position, pressig the button does something different, as does holding it for half a second before releasing  
 - UP - DRIVER Position, the robot is disabled
@@ -20,4 +20,4 @@ If the robot is enabled, pressing the button or moving the slider will immedietl
 2. Buy the needed parts - There is a BOM with part numbers included, however most parts can be substituted if you can find something with the same specifications and footprint 
 3. Soldering - Have fun with this step, the parts are tiny and close to each other, so watch out for shorts. I recommend doing the surface mount first, then the slider and button, and the RJ-45 cable last
 4.  Flashing the Software - 
-5.  3D print the case - If you don't have a 3D printer, look around the local area and see if there is a public makerspace. Some public libraries may also have them. 
+5.  3D print the case - If you don't have a 3D printer, look around the local area and see if there is a public makerspace. Some public libraries may also have them. If you want the text, it can be done with a single color printer by printing just the two layers of text, then switching and printing the whole switch around it
