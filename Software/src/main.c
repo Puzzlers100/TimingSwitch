@@ -55,36 +55,6 @@ typedef char bool;
 #define true 1
 #define false 0
 
-void connect() {
-    PORTC_OUTCLR = (1 << PIN_CON);
-}
-
-void disconnect (){
-    PORTC_OUTSET = (1 << PIN_CON);
-}
-
-void auton (){
-    PORTC_OUTCLR = (1 << PIN_DRV);
-}
-
-void driver (){
-    PORTC_OUTSET = (1 << PIN_DRV);
-}
-
-void enable (){
-    PORTC_OUTSET = (1 << PIN_ENB);
-
-    // debugging LED
-//    PORTB_OUTCLR = (1 << OUT_LED);
-}
-
-void disable (){
-    PORTC_OUTCLR = (1 << PIN_ENB);
-
-    // debugging LED
-//    PORTB_OUTSET = (1 << OUT_LED);
-}
-
 bool selDrive (){
     return !(1 & (PORTB_IN >> IN_DRV));
 }
@@ -376,7 +346,7 @@ void stateMachine() {
                 }
 
                 if (b_state == B_CLICK) { // cancel while waiting
-                    state = ST_D_AUT;
+                    state = ST_D_DRV;
                 }
 
                 if ((timer() - snap) > DRIVE_DELAY) {
