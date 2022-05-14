@@ -1,0 +1,15 @@
+Designator,Mid X,Mid Y,Layer,Rotation
+C1,45.50, 5.65,Bottom,270.0
+C2,57.85, 7.10,Bottom,270.0
+C3,46.65, 3.75,Bottom,180.0
+C4,55.05,13.90,Bottom,270.0
+C5,45.50, 8.45,Bottom,270.0
+CONN,51.58,17.90,Bottom,180.0
+D1,50.40,14.40,Bottom,0.0
+IC1,52.60, 5.75,Bottom,0.0
+PROG,38.90,10.70,Bottom,90.0
+Q1,48.60,11.75,Bottom,0.0
+R1,47.35,14.40,Bottom,180.0
+RN1,52.35,11.60,Bottom,0.0
+U1,53.15,14.10,Bottom,90.0
+XATL1,47.10, 7.05,Bottom,270.0
